@@ -29,7 +29,11 @@
         ]
     },
     "mixins": [
-
+        "thermoo-extras.mixins.json",
+        {
+            "config": "thermoo-extras.client.mixins.json",
+            "environment": "client"
+        }
     ],
     "depends": {
         "fabricloader": ">=0.15.0",
