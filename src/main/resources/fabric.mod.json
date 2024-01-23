@@ -3,7 +3,7 @@
     "id": "thermoo-extras",
     "version": "${version}",
     "name": "Thermoo Extras",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "description": "Extra features for Thermoo",
     "authors": [
         "TheDeathlyCow"
     ],
@@ -29,15 +29,11 @@
         ]
     },
     "mixins": [
-        "thermoo-extras.mixins.json",
-        {
-            "config": "thermoo-extras.client.mixins.json",
-            "environment": "client"
-        }
+
     ],
     "depends": {
         "fabricloader": ">=0.15.0",
-        "minecraft": "~1.20.4",
+        "minecraft": "~1.20.1",
         "java": ">=17",
         "fabric-api": "*",
         "fabric-language-kotlin": ">=1.10.16+kotlin.1.9.21"
